@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js start
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/jwoh/Library/Android/sdk:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jwoh/TypeChain/TypeScript-TypeChain/package.json: Unexpected string in JSON at position 206
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "typechain",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/ohjiwoo123/TypeScript-TypeChain",
+    "author": "JiwooOh <ohjiwoo123@naver.com>",
+    "license": "MIT"
+    "scripts":{
+      "start":"node index.js",
+      "prestart": "tsc"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
